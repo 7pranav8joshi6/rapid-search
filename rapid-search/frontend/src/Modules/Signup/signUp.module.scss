@@ -1,0 +1,39 @@
+.wrapper {
+  height: 98vh;
+  display: flex;
+}
+.leftSection {
+  background-color: rgb(225, 206, 253);
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  gap: 2rem;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.inputSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.already {
+  font-size: 0.7rem;
+  display: flex;
+  align-self: start;
+  margin-left: 11rem;
+}
